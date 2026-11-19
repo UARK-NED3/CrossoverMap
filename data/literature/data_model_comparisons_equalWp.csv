@@ -1,0 +1,26 @@
+key,label,Pi,Re_SMC,R_ratio,verdict
+Ryu2003,Ryu et al. (2003),2.150,167,0.430,MMC
+Ryu2003,Ryu et al. (2003),2.310,324,0.449,MMC
+Ryu2003,Ryu et al. (2003),2.560,424,0.460,MMC
+Cetegen2010,Cetegen (2010),1.960,98,0.580,MMC: h_FF/h_TM = 1.74
+Cetegen2010,Cetegen (2010),2.730,140,0.540,MMC: h_FF/h_TM = 1.84
+Cetegen2010,Cetegen (2010),2.180,290,0.540,MMC: h_FF/h_TM = 1.84
+Cetegen2010,Cetegen (2010),2.130,123,0.470,MMC: h_FF/h_TM = 2.11
+Cetegen2010,Cetegen (2010),2.750,189,0.430,MMC: h_FF/h_TM = 2.34
+Cetegen2010,Cetegen (2010),3.520,276,0.420,MMC: h_FF/h_TM = 2.40
+Boteler2012,Boteler et al. (2012),4.440,24,0.400,MMC
+Boteler2012,Boteler et al. (2012),3.910,75,0.500,MMC
+Boteler2012,Boteler et al. (2012),3.550,119,0.560,MMC
+Boteler2012,Boteler et al. (2012),3.170,239,0.630,MMC
+Kisitu,Kisitu & Ortega (2023),2.050,35,0.700,MMC
+Kisitu,Kisitu & Ortega (2023),2.040,53,0.730,MMC ~27% lower R
+Kisitu,Kisitu & Ortega (2023),2.040,70,0.770,MMC ~23% lower R
+Kisitu,Kisitu & Ortega (2023),2.030,88,0.780,MMC ~22% lower R
+Kuiphuis2025,Kuiphuis et al. (2025),1.870,22,,tie
+Kuiphuis2025,Kuiphuis et al. (2025),1.920,550,,tie
+Kuiphuis2025,Kuiphuis et al. (2025),3.900,22,,tie
+Kuiphuis2025,Kuiphuis et al. (2025),3.640,550,,tie
+Kuiphuis2025,Kuiphuis et al. (2025),5.910,22,,tie
+Kuiphuis2025,Kuiphuis et al. (2025),5.580,220,,tie
+Bazmi2026,Bazmi et al. (2026),1.610,317,1.040,near tie
+Bazmi2026,Bazmi et al. (2026),3.100,317,0.790,MMC

@@ -1,0 +1,5 @@
+closure,cases fitted,cases held out,mean |e| (%)
+SMC thermal,1,4,8.04
+SMC hydraulic,1,4,8.08
+MMC thermal,3,2,5.26
+MMC hydraulic,1,4,10.56

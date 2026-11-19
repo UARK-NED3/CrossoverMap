@@ -1,0 +1,7 @@
+case,alpha,L/Dh,calibrated mean |e| (%),calibrated max |e| (%),uncalibrated mean |e| (%),uncalibrated max |e| (%)
+Baseline,0.35,48.2,6.4,15.5,15.1,39.9
+Low alpha,0.20,48.2,10.3,20.6,25.2,46.2
+High alpha,0.70,48.2,7.6,28.4,11.8,55.6
+Low L/Dh,0.35,24.1,9.8,31.3,20.1,59.1
+High L/Dh,0.35,96.4,8.8,15.6,9.7,18.0
+Pooled,,,8.0,31.3,16.2,59.1

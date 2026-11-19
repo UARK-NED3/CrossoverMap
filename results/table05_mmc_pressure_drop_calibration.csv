@@ -1,0 +1,7 @@
+case,D_h (mm),N_arms,L_pitch (mm),s (mm),K_eff,calibrated mean |e| (%),calibrated max |e| (%),uncalibrated mean |e| (%),uncalibrated max |e| (%)
+Baseline,1.037,10,5,3,3.677,6.80,33.87,88.43,90.67
+Large D_h,2.074,10,5,3,4.107,10.57,11.45,97.85,98.08
+Small D_h,0.519,10,5,3,3.391,8.32,15.92,54.28,61.57
+High N_arms,1.037,20,2.5,1.5,4.673,21.06,26.22,97.93,98.04
+Low N_arms,1.037,5,10,6,3.318,9.58,10.88,58.77,63.90
+Pooled,,,,,3.677,10.56,33.87,80.48,98.08

@@ -1,0 +1,9 @@
+/cfd/
+/thesis/
+/data/literature/sources/
+/results/*.png
+__pycache__/
+*.pyc
+*.pdf
+*.docx
+*.pptx

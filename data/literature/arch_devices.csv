@@ -1,0 +1,41 @@
+key,label,kind,arch,verdict,application,method,dh_mm,re_lo,re_hi,re_src,source,notes
+Tuckerman1981,Tuckerman 1981,device,SMC,,VLSI chip,exp,0.0858,122,523,estimated (n assumed 100),"Tuckerman & Pease, IEEE EDL 2 (1981) 126",expt 3 flow sweep
+Hwang1987-S,Hwang 1987,device,SMC,,multichip module,model,0.196,1300,1300,reported,"Hwang, Turlik & Reisman, J. Electron. Mater. 16 (1987) 347",shallow-channel design
+QuMudawar2002,Qu & Mudawar 2002,device,SMC,,high-flux electronics,exp,0.349,139,1672,reported,"Qu & Mudawar, IJHMT 45 (2002) 2549",
+Knight1992,Knight 1992,device,SMC,,chip heat sink (design),model,0.371,8459,8459,reported,"Knight et al., IEEE CHMT 15 (1992) 832",turbulent redesign of Tuckerman & Pease
+Ortega2022,Ortega 2022,device,SMC,,data-center skived plate,exp,0.381,40,200,bound (Re<200),"Ortega et al., InterPACK 2022, IPACK2022-97421",side-in side-out
+Pinkus2026,Pinkus 2026,device,SMC,,GPU direct-to-chip,exp,0.889,57,452,estimated (N ~75 inferred; IJHMT 0.5-4 L/min at 26 C),"Pinkus et al., IJHMT 256 (2026) 128080 (straight-fin benchmark)",peer-reviewed (was Electronics Cooling magazine); was 195-470 from the Electronics Cooling flow range [audit 10/15]
+Ye2019,Ye 2019,device,SMC,,EV battery module,cfd,1.67,113,113,estimated,"Ye et al., Appl. Sci. 9 (2019) 754","optimum design 1x5 mm, 7 channels; was the 1.50-1.67 mm design-range midpoint with Re 113-237 [audit 10/15]"
+Lin2022,Lin 2022,device,SMC,,EV battery,cfd,1.62,45,90,reported,"Lin et al., Energies 15 (2022) 9103",the flow sweep is numerical (experimentally validated) [audit 10/15]
+Hwang1987-D,Hwang 1987,device,SMC,,multichip module,model,1.67,12000,12000,reported,"Hwang, Turlik & Reisman, J. Electron. Mater. 16 (1987) 347",deep-channel design; turbulent
+Osman2021,Osman 2021,device,SMC,,server cold plate,exp,3.06,195,293,estimated,"Osman et al., Alexandria Eng. J. 60 (2021) 4451",
+Chen2022,Chen 2022,device,SMC,,"high-voltage IGBT (UHVDC / converter valves), not traction",exp,3.43,950,2830,estimated (paper's Re claim not reproducible),"Chen et al., Micromachines 13 (2022) 1417",
+Li2025,Li 2025,device,SMC,,phased-array radar,cfd,3.5,2857,9338,reported,"Li et al., Energies 18 (2025) 3266",single straight channel per plate
+Harpole1991,Harpole 1991,device,MMC,,laser diode array,model,0.0186,9,23,estimated (rho assumed),"Harpole & Eninger, SEMI-THERM 7 (1991) 59","recommended design; recommended design family: D_h 13.4-25.8 um co-varies with Re 9-23 (7-14 um channels, 167 um fins); bar drawn at the geometric-mean D_h. Was 0.0283 from the Fig. 5/6 example [audit 10/15]"
+Escher2010-a,Escher 2010,device,MMC,,chip cooling,exp,0.047,4,18,"estimated per segment (paper: 'order of unity'; 513 ch, ~19 segments, 0.29-1.3 L/min)","Escher et al., J. Heat Transfer 132 (2010) 081402",narrowest channels (26 x 226 um)
+Escher2010-b,Escher 2010,device,MMC,,chip cooling,exp,0.158,12,56,"estimated per segment (paper: 'order of unity'; 100 ch, ~19 segments, 0.29-1.3 L/min)","Escher et al., J. Heat Transfer 132 (2010) 081402",widest channels (108 x 298 um)
+Ryu2003,Ryu 2002/2003,comparison,,MMC,chip heat sink,cfd,0.0824,324,364,straight channel (Ryu 2002): reported 364 / recomputed 324,"Ryu et al., IJHMT 46 (2003) 1553 vs IJHMT 45 (2002) 2823","equal W_p; MMC -55% R; MMC channel D_h 28.9 um, Re 91"
+Cetegen2010-P,Cetegen 2010,comparison,,MMC,high-flux heat sink,model,0.250,96,96,"reported (TMHS Pareto row bracketing the equal-W_p point, 1x1 cm2)","Cetegen, PhD diss., UMD (2010)",equal W_p comparison; FFMHS better [audit 10/15]
+Cetegen2010-H,Cetegen 2010,comparison,,MMC,high-flux heat sink,model,0.129,751,751,"reported (TMHS Pareto row bracketing the equal-h point, 2x2 cm2)","Cetegen, PhD diss., UMD (2010)",equal h comparison; FFMHS better [audit 10/15]
+vanErp2020-25,van Erp 2020,comparison,,MMC,GaN power converter,exp,0.045,14,157,estimated (square footprint),"van Erp et al., Nature 585 (2020) 211",25 um straight channels vs 10x mMMC
+vanErp2020-50,van Erp 2020,comparison,,MMC,GaN power converter,exp,0.083,26,290,estimated (square footprint),"van Erp et al., Nature 585 (2020) 211",50 um straight channels
+vanErp2020-100,van Erp 2020,comparison,,MMC,GaN power converter,exp,0.142,45,496,estimated (square footprint),"van Erp et al., Nature 585 (2020) 211",100 um straight channels
+Boteler2012,Boteler 2012,comparison,,SMC,power electronics,cfd,0.120,24,597,estimated (stated velocities),"Boteler et al., IJHMT 55 (2012) 7698",lowest R_th on the paper's basis (equal system flow): 'microchannels performing slightly better' (p.6); SMC chip 4.5 C cooler at the headline point; authors favour the MMC on dP (97% lower)
+Kisitu,Kisitu & Ortega 2023,comparison,,SMC,data-center plate,cfd,0.308,39,179,estimated (H_fin 2 mm inferred),"Kisitu & Ortega, NSF PAR 10447506",lowest R_th on the paper's basis (equal total flow): parallel plate below split flow at every CFD point in Fig. 14 (read from the figure); authors call R 'extremely similar'; split flow up to 4x lower dP
+Bazmi2026-B,Bazmi 2026,comparison,,SMC,power electronics,cfd,0.500,330,470,estimated (channel count not stated),"Bazmi et al., IJHMT 268 (2026) 128924",matched baseline U-type MMC: straight channel R 0.393 vs 0.447 K/W at equal flow
+Bazmi2026-O,Bazmi 2026,comparison,,MMC,power electronics,cfd,0.500,330,470,estimated (channel count not stated),"Bazmi et al., IJHMT 268 (2026) 128924","optimized MMC (unmatched): R -7.7%, dP -99%"
+Collins2019,Collins 2019,comparison,,SMC,AM heat sink,exp,0.500,341,1298,reported,"Collins et al., IEEE CPMT (2019)","matched layer; straight channel lower R at equal flow; rough walls, onset ~600"
+Yang2026,Yang 2026,device,MMC,,SiC power chip,exp,0.0261,23,69,estimated (750 segments; mu at 20 C),"Yang et al., IJHMT 254 (2026) 127657",
+Jung2020-D8,Jung 2020,device,MMC,,power electronics (EMMC),cfd,0.0176,46,92,reported (Table 11; D8/D9),"Jung et al., J. Electron. Packag. 142 (2020) 031118",
+Kermani2009-36,Kermani 2009,device,MMC,,concentrated PV,exp,0.0364,0.8,2.4,estimated per segment (paper's Fig. 12 Re is per whole channel),"Kermani et al., IEEE ECTC (2009) 453",
+Wu2024,Wu 2024,device,MMC,,power chip (jet-enhanced),cfd,0.0444,8.7,34.7,estimated (paper's Re<334/1000 is plenum/manifold),"Wu et al., IJHMT 221 (2024) 125113",
+Jung2020-D7,Jung 2020,device,MMC,,power electronics (EMMC),cfd,0.060,130,130,reported (Table 11),"Jung et al., J. Electron. Packag. 142 (2020) 031118",
+Kermani2009-67,Kermani 2009,device,MMC,,concentrated PV,exp,0.0667,1.7,4.8,estimated per segment,"Kermani et al., IEEE ECTC (2009) 453",
+Andhare2016,Andhare 2016,device,MMC,,plate heat exchanger,exp,0.072,13.5,30,reported 30 at 20 g/s (scaled to 9 g/s),"Andhare et al., Appl. Therm. Eng. 96 (2016) 178",
+Lin2021,Lin 2021,device,MMC,,chip (manifold layouts),cfd,0.080,6.4,15.4,estimated (Fig. 5 mass flux read),"Lin et al., IJHMT 171 (2021) 121118",
+Zhou2025,Zhou 2025,device,MMC,,chip (tapered manifold),cfd,0.080,19.6,45.8,estimated (paper's 545-1272 is manifold-inlet Re),"Zhou & Zhou, ICHMT 165 (2025) 109117",
+Kang2026,Kang 2026,device,MMC,,chip (shape-optimized),cfd,0.0833,8.9,71,estimated,"Kang et al., IJHMT 255 (2026) 127746",
+Jung2019,Jung 2019,device,MMC,,vehicle power electronics,exp,0.100,18,57,estimated per segment (paper's undefined Re_max is ~2x),"Jung et al., IJHMT 130 (2019) 1108",
+Jung2020-D4,Jung 2020,device,MMC,,power electronics (EMMC),cfd,0.100,150,170,reported (Table 11; D4-D6),"Jung et al., J. Electron. Packag. 142 (2020) 031118",
+Yuruker2019,Yuruker 2019,device,MMC,,chip (optimized design),model,0.1818,315,393,estimated from reported channel velocity,"Yuruker et al., ITherm (2019)",metamodel optimum (water / HFE-7500)
+Mandel2018,Mandel 2018,device,MMC,,generic MMC (test case),cfd,0.1818,27.5,1100,estimated from reported L+ range,"Mandel et al., IJHMT 126 (2018) 317",
