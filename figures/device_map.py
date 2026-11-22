@@ -40,7 +40,6 @@ PLACE = {
     "Jung2020-D7": (1.0, None), "Kermani2009-67": (1.0, None), "Andhare2016": (1.0, None), "Lin2021": (0.97, None),
     "Zhou2025": (1.03, None), "Kang2026": (1.0, None), "Jung2019": (0.97, None), "Jung2020-D4": (1.08, None),
     "Yuruker2019": (1.0, None),
-    "Mandel2018": (1.0, "skip"),
 
     "vanErp2020-25": (1.08, "right"), "vanErp2020-50": (0.90, None), "vanErp2020-100": (0.92, "left"),
     "Ryu2003": (0.96, "right"), "Tuckerman1981": (1.10, "right"), "Boteler2012": (0.96, "skip"),
